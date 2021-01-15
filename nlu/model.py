@@ -77,6 +77,9 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['acc']
 
 model.fit(input_data, output_data, epochs=128)
 
+# Salvar Model
+model.save('model.h6')
+
 
 # Classificar texto em uma entidade
 def classify(text):
