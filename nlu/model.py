@@ -26,8 +26,8 @@ max_seq = max([len(bytes(x.encode('utf-8'))) for x in inputs])
 
 print('Maior sequência: ', max_seq)
 
-# Criar o dataset one-hot (número de exemplos, tamano da sequência, numero de caracteres) 
-# Cria dataset disperso (número de exemplos, tamano da sequência)
+# Criar o dataset one-hot (número de exemplos, tamanho da sequência, numero de caracteres) 
+# Cria dataset disperso (número de exemplos, tamanho da sequência)
 
 
 # Input Data one-hot encoding
